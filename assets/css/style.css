@@ -1,215 +1,233 @@
-
-
-
 /* Common */
 
 h1,
 h2 {
-    font-family: 'EB Garamond', serif;
+  font-family: "EB Garamond", serif;
 }
-
-
 
 body {
-    font-family: 'EB Garamond', serif;
-    background-color: lightgrey;
-    
-      
+  font-family: "EB Garamond", serif;
+  background-color: lightgrey;
 }
 
-
-
 footer {
-    width: 100%;
-    height: auto;
-    border-top: solid black;
-    background-color: rgb(25, 153, 185);
-    opacity: 0.5;
-    
-    
+  width: 100%;
+  height: auto;
+  border-top: solid black;
+  background-color: rgb(25, 153, 185);
+  opacity: 0.5;
 }
 
 .social {
-    
-    margin-left: 100px;
-     display: inline;
- 
- }
+  margin-left: 100px;
+  display: inline;
+}
 
- img:hover {
-    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-  }
-
-
-
-
-
-
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
 
 ul {
-    list-style-type: none;
-   
-    padding: 0;
-    width: 100%;
-    height: auto;
-    text-align: center;
+  list-style-type: none;
+
+  padding: 0;
+  width: 100%;
+  height: auto;
+  text-align: center;
 }
 
 li {
-   
-    text-align: center;
+  text-align: center;
 }
 
-
-
 li a {
-    
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    padding: 4px;
-    margin: 1px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 4px;
+  margin: 1px;
 }
 
 li a:hover {
-    background-color: #555;
-    color: white;
+  background-color: #555;
+  color: white;
 }
 
 .main-nav {
-    
-    margin-left: 540px;
-    display: inline-block;
-    list-style-type: none;
-    margin-top: 35px;
-    padding: 0;
-    padding-right: 90px;
-    
-  
+  margin-left: 540px;
+  display: inline-block;
+  list-style-type: none;
+  margin-top: 35px;
+  padding: 0;
+  padding-right: 90px;
 }
 .about-me {
-    padding: 20px;
-    border-bottom: solid .5px grey;
-   margin-left: 550px;
-    color: rgb(236, 139, 59);
-    background-color: rgb(56, 139, 187);
-    opacity: 0.5;
-    width: 960px;
+  padding: 20px;
+  border-bottom: solid 0.5px grey;
+  margin-left: 550px;
+  color: rgb(236, 139, 59);
+  background-color: rgb(56, 139, 187);
+  opacity: 0.5;
+  width: 960px;
 }
 
-
-
 /* End of Common */
-
-
-
 
 /* index html properties */
 
 .All {
-    margin-left:20px;
-    margin-right:20px;
-    text-align: center;
-    background-image: url("img/Mustangs.jpg");
-    width: auto;
-    height: auto;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  background-image: url("/assets/img/background.jpg");
+  background-size: cover;
+  width: auto;
+  height: auto;
 }
 
 
 .pic {
-    
-    width: 233px;
-    height: 180px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 20px;
-    margin-left: 50px;
-    margin-top: -10px;
-    
+  width: 233px;
+  height: 180px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 20px;
+  margin-left: 50px;
+  margin-top: -10px;
 }
-
-
 
 .main {
-    height: 150px;
-    width: 900px;
-    border: solid rgb(63, 129, 204); 
-    background-color: #555;
-    opacity: 0.9;
-    margin-left: 265px;
-    margin-right: 20px;
-    text-align: center;
-    font-family: 'EB Garamond', serif;
-    font-size: 20px;
-    color: white;
+  height: 150px;
+  width: 900px;
+  border: solid rgb(0, 77, 165);
+  background-color: #555;
+  opacity: 0.9;
+  margin-left: 265px;
+  margin-right: 20px;
+  text-align: center;
+  font-family: "EB Garamond", serif;
+  font-size: 20px;
+  color: white;
 }
-
-
-
-
-
 
 /* End of Index html Properties */
 
+/* Portfolio html properties */
+
+.container {
+    
+  display: inline;
+
+  max-width: 960px;
+
+  bottom: auto;
+}
+
+.center {
+    
+    display: inline-block;
+    font-family: "EB Garamond", serif;
+
+  text-align: center;
+  line-height: 60px;
+
+  background-color: rgb(63, 179, 163);
+  color: white;
+
+  width: 310px;
+  margin: auto;
+  margin-bottom: 10px;
+
+  font-size: 28px;
+}
+
+.photos {
+
+    padding: 20px;
+  width: 300px;
+  height: 200px;
+  margin: auto;
 
 
-
-
-
-  /* Portfolio html properties */
  
+}
 
-  .container {
-      display: inline;
-     
-      max-width: 960px;
-      
-      bottom: auto;
+.AllofRows {
 
-      
-  }
-  
-
-  
-
-  .All2 {
-    
-    text-align: center;
-    background-image: url("img/my-painting.png");
-    width: auto;
-    height: auto;
-
+margin-right: 100px;
 
 }
 
-.AllRows {
-    background-color: gray;
-    
-    
 
+.All2 {
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  background-image: url("/assets/img/background.jpg");
+  background-size: cover;
+  width: auto;
+  height: auto;
 }
-
-.linkTags {
-    margin-left: 30px;
-    font-size: 20px;
-    color: rgb(225, 228, 74);
-    
-}
-
-.InfoText {
-    font-family: 'EB Garamond', serif;
-    border-bottom: solid rgba(0, 0, 0, 0.479);
-    border-top: solid rgba(0, 0, 0, 0.479);
-
-    color: rgb(200, 200, 200);
-   
-}
-
 
 /* End of Portfolio html properties */
-  
 
+/* Contact html properties */
 
+#form-container {
+  margin-left: 30px;
+  margin-right: 30px;
+}
 
-  
+.main-form {
+  width: 800px;
+  height: 50px;
+  padding: 10px;
+  margin-top: 0px;
+  margin-left: 15px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+.name-form {
+  margin-bottom: 10px;
+  padding: 5px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+#message-box {
+  max-height: 300px;
+  min-height: 160px;
+  max-width: 790px;
+  min-width: 790px;
+  padding: 20px;
+  margin-left: 5px;
+}
 
+.Typing {
+  border: solid rgb(0, 132, 165);
+  width: 110px;
+  height: 100px;
+  background-color: rgb(187, 58, 58);
+  opacity: 0.5;
+  color: rgb(255, 255, 255);
 
+  margin: auto;
+}
+
+.Writting2 {
+  border: solid rgb(0, 132, 165);
+  width: 310px;
+  height: 200px;
+  background-color: rgb(185, 187, 58);
+  opacity: 0.5;
+  margin-top: 50px;
+  margin-left: 70px;
+}
+.All3 {
+  margin-left: 20px;
+  margin-right: 20px;
+
+  background-color: rgb(160, 158, 158);
+  width: auto;
+  height: auto;
+}
+
+/* End of Contact html properies */
