@@ -108,9 +108,20 @@ li a:hover {
   color: rgb(0, 0, 0);
 }
 
-.wholeCard {
+.infoCard {
   margin-left: 30%;
   
+}
+
+
+.textCard {
+  width: auto;
+  height:auto;
+text-align: center;
+border: solid black;
+margin: 0;
+top: 10px;
+
 }
 
 /* End of Index html Properties */
@@ -128,10 +139,11 @@ li a:hover {
 .workInfo {
   text-align: center;
   margin-top: 20px;
+  
 }
 
 .center {
-  display: inline-block;
+  
   font-family: "EB Garamond", serif;
 
   text-align: center;
