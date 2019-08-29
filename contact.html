@@ -4,10 +4,10 @@
 <head>
 
     <meta charset="UTF-8">
-    <!-- Links -->
-    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
-     <link rel="stylesheet" type="text/css" href="/assets/css/reset.css">
-    
+    <!-- Links css -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+     <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <!-- Linking Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -19,20 +19,11 @@
         Portfolio
     </title>
 
-
-
-
-
-
-
-
-
-
 </head>
 
 <body>
     <!-- All -->
-    <div class="All3">
+    <main class="All3">
         <!-- NavBar -->
         <nav class="navbar navbar-expand-lg navbar-bar bg-dark">
 
@@ -42,7 +33,6 @@
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
 
 
 
@@ -84,9 +74,9 @@
                             <input type="email" class="form-control" id="exampleFormControlInput1"
                                 placeholder="Name here">
 
-
+ 
                             <div class="form-group">
-                                <label for="exampleFormControlTextarea1">message</label>
+                             <label for="exampleFormControlTextarea1">message</label>
                                 <textarea class="form-control" id="exampleFormControlTextarea1"
                                     placeholder="Message Here..." rows="3"></textarea>
                             </div>
@@ -95,39 +85,42 @@
             </form>
         </div>
 <!-- Submit  -->
-        <div>
-            <input type="submit" value="submit" id="sendbtn">
+
+        <div class="container submitButton">
+                <button type="button" class="btn btn-primary">Submit</button>
         </div>
 
 
 
-    </div>
 <!-- End of All containers -->
 
-
-
-    <!-- Footer -->
-    <footer>
-
+ <!-- Footer -->
+ <footer>
+     
         <!-- Row 5 -->
         <div class="row">
-            <!-- column 1 -->
-            <div class="col-xl-12">
-                <div class="social">
-                    <ul>
-                        <li>
-
-                            <a target="_blank" href="https://github.com/Sinuhem23/">
-                                <img src="assets/img/Github.png" alt="GitHub" style="width:100px">
-                            </a>
-
-                        </li>
-                    </ul>
-                </div>
+          <!-- column 1 -->
+          <div class="col-xl-12">
+            <div class="social">
+              <ul>
+                <li>
+                  <a target="_blank" href="https://github.com/Sinuhem23/">
+                    <img
+                      src="assets/img/Github.png"
+                      alt="GitHub"
+                      style="width:100px"
+                    />
+                  </a>
+                </li>
+              </ul>
             </div>
+          </div>
         </div>
+      </footer>
+    </main>
 
-    </footer>
+
+
 </body>
 
 </html>

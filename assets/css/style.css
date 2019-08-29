@@ -61,13 +61,14 @@ li a:hover {
   padding-right: 90px;
 }
 .about-me {
-  padding: 20px;
+  padding: 30px;
   border-bottom: solid 0.5px grey;
-  margin-left: 550px;
-  color: rgb(236, 139, 59);
+  text-align: center;
+  color: rgb(0, 0, 0);
   background-color: rgb(56, 139, 187);
   opacity: 0.5;
-  width: 960px;
+  width: 90%;
+
 }
 
 /* End of Common */
@@ -78,12 +79,10 @@ li a:hover {
   margin-left: 20px;
   margin-right: 20px;
   text-align: center;
-  background-image: url("/assets/img/background.jpg");
-  background-size: cover;
+  background-color: rgb(246, 246, 246);
   width: auto;
   height: auto;
 }
-
 
 .pic {
   width: 233px;
@@ -99,14 +98,14 @@ li a:hover {
   height: 150px;
   width: 900px;
   border: solid rgb(0, 77, 165);
-  background-color: #555;
+  background-color: rgb(189, 189, 189);
   opacity: 0.9;
   margin-left: 265px;
   margin-right: 20px;
   text-align: center;
   font-family: "EB Garamond", serif;
   font-size: 20px;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 /* End of Index html Properties */
@@ -114,7 +113,6 @@ li a:hover {
 /* Portfolio html properties */
 
 .container {
-    
   display: inline;
 
   max-width: 960px;
@@ -122,10 +120,14 @@ li a:hover {
   bottom: auto;
 }
 
+.workInfo {
+  text-align: center;
+  margin-top: 20px;
+}
+
 .center {
-    
-    display: inline-block;
-    font-family: "EB Garamond", serif;
+  display: inline-block;
+  font-family: "EB Garamond", serif;
 
   text-align: center;
   line-height: 60px;
@@ -141,29 +143,19 @@ li a:hover {
 }
 
 .photos {
-
-    padding: 20px;
+  padding: 20px;
   width: 300px;
   height: 200px;
   margin: auto;
-
-
- 
 }
 
-.AllofRows {
-
-margin-right: 100px;
-
-}
 
 
 .All2 {
   margin-left: 20px;
   margin-right: 20px;
-  text-align: center;
-  background-image: url("/assets/img/background.jpg");
-  background-size: cover;
+
+  background-color: rgb(246, 246, 246);
   width: auto;
   height: auto;
 }
@@ -201,6 +193,10 @@ margin-right: 100px;
   margin-left: 5px;
 }
 
+.submitButton {
+  width: auto;
+}
+
 .Typing {
   border: solid rgb(0, 132, 165);
   width: 110px;
@@ -225,7 +221,7 @@ margin-right: 100px;
   margin-left: 20px;
   margin-right: 20px;
 
-  background-color: rgb(160, 158, 158);
+  background-color: rgb(246, 246, 246);
   width: auto;
   height: auto;
 }
