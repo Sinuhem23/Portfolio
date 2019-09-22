@@ -293,6 +293,8 @@ html {
 body {
   font-family: Nunito;
   letter-spacing: 0.0625em;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 a {
   color: #64a19d;
