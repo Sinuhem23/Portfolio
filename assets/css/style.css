@@ -156,6 +156,8 @@ html {
     margin-left: 15%;
     margin-right: 15%;
     border-radius: 23px;
+  text-align: left;
+    
     
 }
 .cardTexts {
@@ -165,8 +167,9 @@ html {
   max-width: 230px; 
   max-height: 150px;
   border-radius: 23px;
-  margin-left: 10%;
-  margin-top: 10%;
+  margin-left: 10px;
+  margin-top: 10px;
+  
 }
 .textROW {
   padding-bottom: 300px;
