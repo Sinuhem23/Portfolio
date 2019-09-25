@@ -49,6 +49,7 @@ html {
 
 .masthead {
   margin-top: 60px;
+  overflow: hidden;
   
   position: relative;
   width: 100%;
