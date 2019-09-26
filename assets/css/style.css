@@ -45,7 +45,12 @@ html {
   
 }
 
-
+.shiftMain {
+  margin-left: 15px;
+}
+.btn-round {
+  
+}
 
 .masthead {
   margin-top: 60px;
@@ -158,6 +163,7 @@ html {
 }
 .textROW {
   padding-bottom: 300px;
+  margin-left: 15px;
 
 }
 .iconGit {
