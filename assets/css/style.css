@@ -146,6 +146,11 @@ body {
   background-attachment: scroll;
   background-size: cover;
 }
+.imgSize {
+  width: 100%;
+  padding: 2rem 0;
+
+}
 .namePort {
   width: 100%;
   margin:0;
@@ -163,6 +168,10 @@ body {
   color: white;
   
 }
+.cardSizing {
+  margin-bottom: 100px;
+
+}
 
 
 .contForWork {
@@ -174,12 +183,13 @@ body {
     #aaa8a8 100%);
     margin-left: 15%;
     margin-right: 15%;
+    margin-bottom: 200px;
     border-radius: 23px;
-    
     
 }
 .cardTexts {
   text-align: center;
+  margin-top: -40px;
 }
 .cardImg {
   max-width: 230px; 
@@ -245,9 +255,9 @@ body {
   margin-top: 123px;
 }
 
-
+/* ////////////////////////////////////////////// */
 /* END OF BUTTONS */
-
+/* //////////////////////////////////////////////// */
 
 .about-section {
   padding-top: .8rem;
@@ -329,8 +339,10 @@ a:hover {
   color: #64a19d !important;
 }
 
-/* FOOTER */
 
+/* ///////////////////////////////////////////// */
+/* FOOTER */
+/* /////////////////////////////////////////////// */
 footer {
   padding: 10px;
   text-align: center;
